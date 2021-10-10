@@ -6,7 +6,7 @@
 - Transpiler
 - Skabt af blandt andet Anders Hejlsberg (C#, Delphi)
 - Historien bag TypeScript - se [http://ithistorie.cronberg.dk](http://ithistorie.cronberg.dk?maerker=js,ts,det_vi_husker)
-  - Pt i version 3
+  - Pt i version 4.x
 - Open Source
   - https://github.com/Microsoft/TypeScript
 - Grundlæggende features
@@ -19,7 +19,7 @@
 
 ### Installering via Node
 
-Kør evt. som administator!
+Kør som administator!
 
 ```
 npm install typescript -g
@@ -36,6 +36,7 @@ Typisk benyttes en tsconfig.json fil
 ```
 tsc --init
 ```
+
 ### Udviklingmiljø
 
 De fleste benytter VS Code med extensions. 
@@ -225,19 +226,6 @@ let b: null;
 let c: number = undefined;
 let d: number = a;
 let e: boolean = b;
-```
-
-### never
-
-Noget speciel type som indikerer, at en funktion aldrig returnerer
-
-```typescript
-function a(): never {
-  throw new Error("Fejl");
-}
-function b(): never {
-  do {} while (true);
-}
 ```
 
 ### object
