@@ -17,6 +17,8 @@
   - Stærk support i udviklingmiljøer og tilhørende værktøjer
 - Installeres typisk via NPM/Node (eller Visual Studio)
 
+Se https://github.com/devcronberg/undervisning-ts-opgaver
+
 ### Installering via Node
 
 Kør som administator!
